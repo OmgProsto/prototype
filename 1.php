@@ -10,6 +10,7 @@ class WinButton implements Button
     public function __construct ( /* цвет, картинка полученная по стороннему АПИ и тд */ )
     {
         // Много логики
+        PrototypeServiceProvider::addPrototype($this);
     }
 
     public function onClick()
@@ -23,6 +24,7 @@ class MacButton implements Button
     public function __construct ( /* цвет, картинка полученная по стороннему АПИ и тд */ )
     {
         // Много логики
+        PrototypeServiceProvider::addPrototype($this);
     }
 
     public function onClick()

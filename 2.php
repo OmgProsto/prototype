@@ -10,6 +10,8 @@ class WinCheckbox implements Checkbox
     public function __construct ( /* цвет, варианты полученные по стороннему АПИ и тд */ )
     {
         // Много логики
+
+        PrototypeServiceProvider::addPrototype($this);
     }
 
     public function onChecked()
@@ -23,6 +25,7 @@ class MacCheckbox implements Checkbox
     public function __construct ( /* цвет, варианты полученные по стороннему АПИ и тд */ )
     {
         // Много логики
+        PrototypeServiceProvider::addPrototype($this);
     }
 
     public function onChecked()
