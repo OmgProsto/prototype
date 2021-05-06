@@ -7,6 +7,11 @@ Interface Checkbox
 
 class WinCheckbox implements Checkbox
 {
+    public function __construct ( /* цвет, варианты полученные по стороннему АПИ и тд */ )
+    {
+        // Много логики
+    }
+
     public function onChecked()
     {
         // Событие происходящее при нажатии на чекбокс на Win
@@ -15,6 +20,11 @@ class WinCheckbox implements Checkbox
 
 class MacCheckbox implements Checkbox
 {
+    public function __construct ( /* цвет, варианты полученные по стороннему АПИ и тд */ )
+    {
+        // Много логики
+    }
+
     public function onChecked()
     {
         // Событие происходящее при нажатии на чекбокс на Mac
